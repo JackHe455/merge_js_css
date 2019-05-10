@@ -1,5 +1,5 @@
 # merge_js_css
-解析html根据标签提取需要合并的js、css，并且更新html
+nodejs 解析html根据标签提取需要合并的js、css，并且更新html
 
 #简介
 > 站点页面上js、css外链过多会导致网页的加载速度过慢，通过合并页面的js、css成一个文件，减少http的开销。
