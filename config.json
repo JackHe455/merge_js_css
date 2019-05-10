@@ -1,0 +1,7 @@
+{
+  "extract_tag":["<!--if true-->","<!--else-->","<!--endif-->"],
+  "output_path": "D:\\projects\\github_project\\merge_js_css\\examples\\output",
+  "tmp_js_json_dir": "D:\\projects\\github_project\\merge_js_css\\examples\\json\\js",
+  "tmp_css_json_dir": "D:\\projects\\github_project\\merge_js_css\\examples\\json\\css",
+  "html_dir_path": "D:\\projects\\github_project\\merge_js_css\\examples\\html"
+}

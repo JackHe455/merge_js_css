@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>合并js、css</title>
+    <!--if true-->
+    <link rel="stylesheet" href="../js/bootstrap-3.3.7/dist/css/bootstrap.css">
+    <!--else-->
+    <link rel="stylesheet" href="../output/index_0_424cc3df55ecd2fe7c3476f65179cab4.min.css">
+    <!--endif-->
+    <!--if true-->
+    <style type="text/css">
+        .one{
+            width: 200px;
+            height: 200px;
+            background: #f5e79e;
+        }
+        .two{
+            width: 200px;
+            height: 200px;
+            background: #2aabd2;
+        }
+    </style>
+
+    <link rel="stylesheet" href="../css/index.css">
+    <!--else-->
+    <link rel="stylesheet" href="../output/index_1_424cc3df55ecd2fe7c3476f65179cab4.min.css">
+    <!--endif-->
+
+</head>
+<body>
+
+<div class="one"></div>
+<div class="two"></div>
+<div class="three">
+    <div class="img1"></div>
+    <div class="img2"></div>
+    <div class="img3"></div>
+    <div class="img4"></div>
+</div>
+<!--if true-->
+<script type="text/javascript" src="../js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="../js/bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+<!--else-->
+<script type="text/javascript" src="../output/index_0_424cc3df55ecd2fe7c3476f65179cab4.min.js"></script>
+<!--endif-->
+
+
+<!--if true-->
+<script type="text/javascript">
+    window.onload=function () {
+        var one=document.getElementsByClassName("one")[0];
+        one.innerText="第一个盒子";
+    }
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".two").text("第二个盒子");
+    })
+</script>
+<!--else-->
+<script type="text/javascript" src="../output/index_1_424cc3df55ecd2fe7c3476f65179cab4.min.js"></script>
+<!--endif-->
+</body>
+</html>

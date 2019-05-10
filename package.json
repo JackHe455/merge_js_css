@@ -1,0 +1,27 @@
+{
+  "name": "merge_js_css",
+  "version": "1.0.0",
+  "description": "解析html根据标签提取需要合并的js、css，并且更新html",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackHe455/merge_js_css.git"
+  },
+  "author": "hejian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JackHe455/merge_js_css/issues"
+  },
+  "homepage": "https://github.com/JackHe455/merge_js_css#readme",
+  "devDependencies": {
+    "clean-css": "^4.2.1",
+    "uglify-js": "^3.5.11"
+  },
+  "dependencies": {}
+}
